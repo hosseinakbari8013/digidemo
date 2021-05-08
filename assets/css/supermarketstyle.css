@@ -1,0 +1,18 @@
+
+
+.rounded-3{
+    border-radius: .6rem!important;
+    overflow: hidden;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    color: white;
+    font-size: 23pt!important;
+}
+.swiper-pagination-bullet{
+    padding: 5px!important;
+}
+
+.swiper-pagination-bullet-active{
+    background: #0430d2 !important;
+}

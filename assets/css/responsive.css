@@ -1,0 +1,148 @@
+@media(max-width:1200px){
+    .footer-icon div{
+        padding: 0 1.8rem!important;
+    }
+}
+@media(max-width:992px) {
+
+    .offcanvas-header{
+        background:white;
+        width: 100%;
+        display:block; }
+
+    .mobile-offcanvas{
+        visibility: hidden;
+        transform:translateX(-100%);
+        border-radius:0;
+        display:block;
+        position: fixed;
+        top: 0; right:0;
+        height: 100%;
+        z-index: 1200;
+        width:80%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+    }
+    .btn-c{
+        border-radius:0;
+        display:none;
+        border:0;
+        padding: 0;
+        user-select: none;
+        position: absolute;
+        top: 0; left:0;
+        height: 100%;
+        z-index: 1200;
+        width:20%;
+        background: rgba(66, 66, 66, 0.2);
+        visibility: visible;
+        transition: .2s;
+        float: right;
+    }
+    .btn-c.show{
+        display: block;
+    }
+    .mobile-offcanvas.show{
+        visibility: visible;
+        transform: translateX(0);
+    }
+    .ws-slider{
+        width: 25%;
+    }
+    .w-slider{
+        width:75%;
+    }
+    .w-app{
+        width: 20%;
+    }
+    .px-6{
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
+    }
+    .footer-icon div{
+        padding: 0 2rem!important;
+    }
+
+}
+@media(max-width: 768px) {
+    .top_hero{
+        height: 40px!important;
+    }
+    .ws-slider {
+        width: 0;
+    }
+
+    .w-slider {
+        width: 100%;
+    }
+
+    .owl-product .owl-stage .owl-item:first-child {
+        display: block;
+        width: 210px !important;
+    }
+
+    .owl-stage {
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+    .w-app {
+        width: 40%;
+    }
+    .product-box{
+        box-shadow:0 0 10px 0 rgba(0,0,0,.1)!important;
+    }
+    .border-red{
+        border-bottom: 1px solid transparent;
+        display: inline-block;
+    }
+    .px-6{
+        padding-right: 3rem!important;
+        padding-left: 3rem!important;
+    }
+    .bg-swiper{
+        background: transparent;
+    }
+    .input-email-form{
+        display: block!important;
+    }
+    .input-email-form input ,.input-email-form button{
+        width: 100%!important;
+        margin-bottom: 1rem!important;
+    }
+    .input-group-prepend,
+    .input-email {
+        display: block!important;
+    }
+    .footer-icon div{
+             padding: 0 1rem!important;
+    }
+    .btn-send{
+        border-radius: .6rem!important;
+    }
+    .top-ad-img{
+        min-height: 30px;
+    }
+    .d-n{
+        display: none!important;
+    }
+
+}
+@media (max-width: 576px) {
+    .top_hero{
+        height: 20px!important;
+    }
+    .owl-product .owl-stage .owl-item:first-child{
+        width: 170px!important;
+    }
+    .px-6{
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+    }
+    .text-height{
+        height: 80px!important;
+    }
+
+}
